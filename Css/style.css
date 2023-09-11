@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(48, 106, 121);
+    color: aliceblue;
+    font-size: 10px;
+  }
+  .blockdivmadre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 1000px;
+  }
+  .cabecera {
+    margin-top: 10px;
+    background-color: rgb(47, 129, 184);
+    display: flex;
+    align-items: center;
+    width: 1300px;
+    height: 55px;
+    border-radius: 7px;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(18, 29, 80);
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+  }
+  .Barrasuperior {
+    display: flex;
+    align-items: center;
+    background-color: rgba(18, 29, 80, 0.452);
+    border-radius: 5px;
+    height: 40px;
+    width: 1025px;
+  }
+  .Barradebusqueda {
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    background-color: rgb(20, 20, 36);
+    width: 500px;
+    height: 30px;
+    margin-left: 15px;
+  }
+  .Notificaciones {
+  }
+  .searchbutton {
+    background-color: rgb(20, 20, 36);
+    border-color: rgb(145, 145, 172);
+    border-radius: 50px;
+    width: 28px;
+    height: 28px;
+    margin-left: 2px;
+  }
